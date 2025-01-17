@@ -38,6 +38,11 @@ h2 {
   padding-left: 16px;
   font-size: 48px;
 }
+.h2-org {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+}
 h3 {
   font-size: 24px;
   font-weight: bold;
@@ -91,8 +96,29 @@ h3 {
 .fz-16 {
   font-size: 64px;
 }
+.fw-bolder {
+  font-weight: bolder;
+}
 .mr-10 {
   margin-right: 10px;
+}
+.mt-6 {
+  margin-top: 24px;
+}
+.pt-20 {
+  padding-top: 80px;
+}
+.pb-12 {
+  padding-bottom: 48px;
+}
+.mb-12 {
+  margin-bottom: 48px;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mb-6 {
+  margin-bottom: 24px;
 }
 .color-w {
   color: white;
@@ -103,12 +129,19 @@ h3 {
 .text-end {
   text-align: right;
 }
+.text-center {
+  text-align: center;
+}
+.text-start {
+  text-align: left;
+}
 .f-wrap {
   flex-wrap: wrap;
 }
 .autoHeight {
   height: 100vh;
 }
+
 /* header */
 .header {
   background: #aa0601;
@@ -146,7 +179,65 @@ h3 {
   padding: 6px 12px;
   margin-top: 10px;
 }
-
+// feature
+.feature {
+  background: #fbf2f2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.feature-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.feature-card {
+  flex: 0 0 calc((100% / 4) - 24px);
+  max-width: calc((100% / 4) - 24px);
+}
+// product-series
+.product-series {
+  padding-top: 80px;
+}
+.product-series-name {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.product-series-card {
+  flex: 0 0 calc((100% / 3) - 24px);
+  max-width: calc((100% / 3) - 24px);
+}
+.product-series-card-scri {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+}
+// co-branded
+.co-branded {
+  background-image: url(../assets/images/index-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.co-branded-card {
+  flex: 0 0 calc((100% / 2));
+  max-width: calc((100% / 2));
+  background-color: white;
+}
+.co-branded-scri {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+}
 /* qNa */
 .container-oringin {
   max-width: 1324px;
