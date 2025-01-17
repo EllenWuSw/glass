@@ -81,6 +81,9 @@ h3 {
 .gap-16 {
   gap: 64px;
 }
+.fz-14px {
+  font-size: 14px;
+}
 .fz-5 {
   font-size: 20px;
 }
@@ -99,26 +102,47 @@ h3 {
 .fw-bolder {
   font-weight: bolder;
 }
+.mt-4 {
+  margin-top: 16px;
+}
 .mr-10 {
   margin-right: 10px;
 }
 .mt-6 {
   margin-top: 24px;
 }
+.pt-4 {
+  padding-top: 1rem;
+}
 .pt-20 {
   padding-top: 80px;
+}
+.pb-4 {
+  padding-bottom: 16px;
 }
 .pb-12 {
   padding-bottom: 48px;
 }
-.mb-12 {
-  margin-bottom: 48px;
+.pl-4 {
+  padding-left: 16px;
+}
+.pr-4 {
+  padding-right: 16px;
 }
 .mb-2 {
   margin-bottom: 8px;
 }
+.mb-4 {
+  margin-bottom: 16px;
+}
 .mb-6 {
   margin-bottom: 24px;
+}
+.mb-12 {
+  margin-bottom: 48px;
+}
+.mb-18 {
+  margin-bottom: 72px;
 }
 .color-w {
   color: white;
@@ -237,6 +261,29 @@ h3 {
   font-weight: 900;
   font-style: italic;
   font-variation-settings: "wdth" 100;
+}
+// recommend
+.recommend {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.recommend-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.recommend-list-card {
+  flex: 0 0 calc((100% / 4) - 24px);
+  max-width: calc((100% / 4) - 24px);
+  box-shadow: 0px 2px 6px #00000029;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.card-text-date {
+  color: #707070;
+  opacity: 1;
 }
 /* qNa */
 .container-oringin {
