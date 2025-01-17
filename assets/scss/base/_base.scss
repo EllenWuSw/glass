@@ -55,11 +55,20 @@ h3 {
 .jc-sb {
   justify-content: space-between;
 }
+.jc-c {
+  justify-content: center;
+}
 .ai-c {
   align-items: center;
 }
 .ai-e {
   align-items: end;
+}
+.ai-fe {
+  align-items: flex-end;
+}
+.ac-fe {
+  align-content: flex-end;
 }
 .gap-12 {
   gap: 48px;
@@ -91,6 +100,15 @@ h3 {
 .color-r {
   color: #650300;
 }
+.text-end {
+  text-align: right;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.autoHeight {
+  height: 100vh;
+}
 /* header */
 .header {
   background: #aa0601;
@@ -104,19 +122,29 @@ h3 {
 }
 /* banner */
 .banner {
-  background-image: url(./img/home-header.png);
+  background-image: url(../assets/images/home-header.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
-.banner-sub {
-  margin-top: 296px;
+.banner-scri {
+  font-size: 36px;
+  line-height: 54px;
 }
-.buyNow-btn a {
+.banner-subTit {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 96px;
+}
+.buyNow-btn {
+  display: inline-block;
   background-color: #aa0601;
   color: white;
   font-size: 20px;
   padding: 6px 12px;
   margin-top: 10px;
-  margin-bottom: 302px;
 }
 
 /* qNa */
