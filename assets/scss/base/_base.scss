@@ -74,6 +74,9 @@ h3 {
 .ac-fe {
   align-content: flex-end;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .gap-12 {
   gap: 48px;
 }
@@ -394,7 +397,7 @@ h3 {
   color: black;
 }
 .products-list :hover {
-  border-bottom: 0.5rem solid #aa0601;
+  border-bottom: #aa0601;
 }
 .products-list-btn {
   font-size: 2rem;
