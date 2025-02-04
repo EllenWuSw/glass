@@ -395,9 +395,10 @@ h3 {
   border-bottom: 0.5rem solid #dcdcdc;
   text-align: center;
   color: black;
+  transition: border-bottom 0.1s ease;
 }
-.products-list :hover {
-  border-bottom: #aa0601;
+.products-list:hover {
+  border-bottom: 0.5rem solid #aa0601;
 }
 .products-list-btn {
   font-size: 2rem;
