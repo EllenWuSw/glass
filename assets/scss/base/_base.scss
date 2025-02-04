@@ -379,7 +379,10 @@ h3 {
 }
 // products_1
 .products-list {
-  border: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 8px solid #dcdcdc;
   text-align: center;
   color: black;
 }
