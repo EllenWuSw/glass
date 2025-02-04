@@ -92,8 +92,12 @@ h3 {
 .fz-6 {
   font-size: 24px;
 }
+
 .fz-9 {
   font-size: 36px;
+}
+.fz-42px {
+  font-size: 42px;
 }
 .fz-12 {
   font-size: 48px;
@@ -135,6 +139,9 @@ h3 {
 .pr-4 {
   padding-right: 16px;
 }
+.mt-5rem {
+  margin-top: 5rem;
+}
 .mb-2 {
   margin-bottom: 8px;
 }
@@ -153,6 +160,9 @@ h3 {
 .mb-20 {
   margin-bottom: 80px;
 }
+.mb-5rem {
+  margin-bottom: 5rem;
+}
 .color-w {
   color: white;
 }
@@ -160,9 +170,6 @@ h3 {
   color: #650300;
 }
 .color-black {
-  color: black;
-}
-#black {
   color: black;
 }
 .text-end {
