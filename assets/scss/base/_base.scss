@@ -376,13 +376,18 @@ h3 {
 .products-list {
   border: 1px solid #dcdcdc;
   text-align: center;
+  color: black;
 }
-.products-list a {
+.products-list :hover {
+  border-bottom: 0.5rem solid #aa0601;
+}
+.products-list-btn {
   font-size: 2rem;
   font-weight: bold;
   line-height: 48px;
   padding: 1.5rem 9.375rem;
 }
+
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
