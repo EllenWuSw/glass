@@ -62,6 +62,9 @@ h3 {
 .jc-c {
   justify-content: center;
 }
+.jc-fs {
+  justify-content: flex-start;
+}
 .ai-c {
   align-items: center;
 }
@@ -76,6 +79,12 @@ h3 {
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-8 {
+  gap: 24px;
 }
 .gap-12 {
   gap: 48px;
@@ -119,6 +128,12 @@ h3 {
 }
 .mt-6 {
   margin-top: 24px;
+}
+.mt-8 {
+  margin-top: 32px;
+}
+.mt-20 {
+  margin-top: 80px;
 }
 .pt-4 {
   padding-top: 1rem;
@@ -387,7 +402,7 @@ h3 {
   border-top: 1px solid white;
   padding: 32px 0;
 }
-// products_1
+// products_1，賽璐珞鈦金屬混合鏡框產品頁
 .products-list {
   border-top: 1px solid #dcdcdc;
   border-left: 1px solid #dcdcdc;
@@ -406,7 +421,19 @@ h3 {
   line-height: 48px;
   padding: 1.5rem 9.375rem;
 }
-
+.products_cards {
+  max-width: 24.5%;
+}
+.products_colorsBox {
+  width: 24px;
+  height: 24px;
+}
+.brown {
+  color: #5f3e2d;
+}
+.redOrange {
+  color: #b75929;
+}
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
