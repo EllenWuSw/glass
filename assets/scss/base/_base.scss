@@ -425,14 +425,14 @@ h3 {
   max-width: 24.5%;
 }
 .products_colorsBox {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .brown {
-  color: #5f3e2d;
+  background: #5f3e2d;
 }
 .redOrange {
-  color: #b75929;
+  background: #b75929;
 }
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
