@@ -430,6 +430,18 @@ h3 {
 .redOrange {
   background: #b75929;
 }
+.pages_cards {
+  border: 1px solid #555555;
+  font-size: 19px;
+  line-height: 29px;
+  color: #555555;
+  padding: 11px 12px;
+  opacity: 1;
+}
+.pages_cards:hover {
+  color: white;
+  background: black;
+}
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
