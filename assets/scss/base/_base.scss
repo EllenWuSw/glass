@@ -459,6 +459,10 @@ h3 {
 .pages_cards_after a:hover {
   color: #555555;
 }
+// products_2頁面
+.products_cards_products_2 {
+  max-width: 32.5%;
+}
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
