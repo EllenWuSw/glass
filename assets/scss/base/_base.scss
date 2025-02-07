@@ -430,11 +430,15 @@ h3 {
 .redOrange {
   background: #b75929;
 }
-.pages_cards {
+.pages_cards,
+.pages_cards_forward,
+.pages_cards_after {
   border: 1px solid #555555;
   color: #555555;
 }
-.pages_cards a {
+.pages_cards a,
+.pages_cards_forward a,
+.pages_cards_after a {
   color: #555555;
   padding: 11px 12px;
   font-size: 19px;
@@ -446,6 +450,14 @@ h3 {
 }
 .pages_cards:hover a {
   color: white;
+}
+.pages_cards_forward,
+.pages_cards_after:hover {
+  background: #f2f2f2;
+}
+.pages_cards_forward a,
+.pages_cards_after a:hover {
+  color: #555555;
 }
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
