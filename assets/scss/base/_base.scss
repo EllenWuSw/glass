@@ -442,8 +442,10 @@ h3 {
   opacity: 1;
 }
 .pages_cards:hover {
-  color: white;
   background: black;
+}
+.pages_cards:hover a {
+  color: white;
 }
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
