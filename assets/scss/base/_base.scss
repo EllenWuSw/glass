@@ -667,6 +667,28 @@ h3 {
   .card {
     max-width: 100%;
   }
+
+  .blog_content > li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  .blog_cards {
+    width: 100%;
+  }
+
+  /* 副標題和日期的容器調整 */
+  .blog_describe .dp-flex.jc-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .blog_subtitle,
+  .blog_subtitle_date {
+    margin: 0; /* 移除可能的預設 margin */
+  }
+
   .blog_describe_text {
     display: none;
   }
