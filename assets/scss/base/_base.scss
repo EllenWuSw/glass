@@ -493,13 +493,16 @@ h3 {
   color: white;
   padding: 13px 0;
 }
+.blog_content img {
+  width: 100%;
+  height: auto;
+}
 .blog_main {
   margin-top: 6rem;
 }
 .blog_content {
   background: white;
-  padding-top: 2rem;
-  padding-bottom: 7.75rem;
+  padding: 2rem 0 7.75rem 0;
 }
 .blog_content li {
   max-width: calc((100% - 24px) / 2);
@@ -532,15 +535,7 @@ h3 {
 .blog_content + .pages_list {
   margin-top: 7.75rem;
 }
-.blog_content{
-  flex-wrap: wrap;
-  margin: 0 -16px; 
-}
-.blog_content > li {
-  flex: 1 1 calc(50% - 32px); /* 設置基礎寬度為 50%，減去間距 */
-  min-width: 300px; /* 設置最小寬度避免過度擠壓 */
-  margin: 16px; /* 使用 margin 替代 gap，提供更好的兼容性 */
-}
+
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
@@ -576,7 +571,11 @@ h3 {
     max-width: 45%;
   }
   .blog_content > li {
-    flex: 1 1 100%; 
+    width: calc(50% - 12px); /* 平板保持兩欄排列 */
+  }
+
+  .blog_describe_text {
+    font-size: 16px; /* 平板字體可以稍微縮小 */
   }
 }
 @media (max-width: 657px) {
@@ -630,5 +629,22 @@ h3 {
 @media (max-width: 376px) {
   .card {
     max-width: 100%;
+  }
+  .blog_content > li {
+    width: 100%;
+  }
+
+  .blog_describe_text {
+    display: none;
+  }
+  .blog_title a {
+    font-size: 24px;
+  }
+  .blog_subtitle,
+  .blog_subtitle_date {
+    font-size: 1rem;
+  }
+  .more {
+    display: none;
   }
 }
