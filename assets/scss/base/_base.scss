@@ -579,7 +579,7 @@ h3 {
     max-width: 45%;
   }
   .blog_content > li {
-    width: calc(50% - 12px); /* 平板保持兩欄排列 */
+    width: calc(50% - 12px);
   }
 
   .blog_describe_text {
@@ -591,9 +591,12 @@ h3 {
   .blog_content > li {
     width: 100%;
   }
-
   .blog_describe_text {
-    display: none;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* 控制顯示第6行文字後開始省略 */
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .blog_title a {
     font-size: 24px;
