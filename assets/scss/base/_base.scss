@@ -479,10 +479,11 @@ h3 {
   text-align: center;
 }
 .search .material-symbols-outlined.search-icon {
-  font-size: 24px; /* 您想要的大小 */
+  font-size: 30px;
 }
 .search a {
   color: white;
+  padding: 13px 0;
 }
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
