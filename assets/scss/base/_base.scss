@@ -532,6 +532,15 @@ h3 {
 .blog_content + .pages_list {
   margin-top: 7.75rem;
 }
+.blog_content{
+  flex-wrap: wrap;
+  margin: 0 -16px; 
+}
+.blog_content > li {
+  flex: 1 1 calc(50% - 32px); /* 設置基礎寬度為 50%，減去間距 */
+  min-width: 300px; /* 設置最小寬度避免過度擠壓 */
+  margin: 16px; /* 使用 margin 替代 gap，提供更好的兼容性 */
+}
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
@@ -565,6 +574,9 @@ h3 {
   }
   .card {
     max-width: 45%;
+  }
+  .blog_content > li {
+    flex: 1 1 100%; 
   }
 }
 @media (max-width: 657px) {
