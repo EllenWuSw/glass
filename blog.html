@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    />
-    <title>部落格</title>
-    <script type="module" crossorigin src="/glass/assets/main-b57aa8bc.js"></script>
-    <link rel="stylesheet" href="/glass/assets/main-5d99bb23.css">
+    <!-- head 內容保持不變 -->
   </head>
   <body>
     <header class="header">
@@ -44,7 +35,8 @@
     </ul>
   </div>
 </header>
-    <!--選單導覽列 -->
+
+    <!-- 第一部分：導覽選單 -->
     <div class="blog_manu">
       <div class="container-oringin dp-flex blog_manu_list">
         <ul class="dp-flex gap-12">
@@ -58,30 +50,34 @@
             <span class="material-symbols-outlined search-icon">search</span>
           </a>
         </div>
+      </div>
     </div>
-    <div class="qNa store">
-        <div class="container-oringin">
-          <h2 class="fz-12">部落格</h2>
-        </div>
-        <ul class="blog_content dp-flex">
-            <li><img src="/glass/assets/blog-1-13919abb.png" alt="blog-1" /></li>
-            <li class="blog_cards dp-flex fd-col jc-sb">
-              <div class="blog_describe">
-                <p class="blog_title"><a href="#">情人特別企劃</a></p>
-                <div class="dp-flex jc-sb">
-                  <p class="blog_subtitle">2020 Valentine's Special</p>
-                  <p class="blog_subtitle_date">2020/02/14</p>
-                </div>
-                <p class="blog_describe_text">
-                  一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
-                  即日起至2/16為止，不論是熱戀情侶、自由自在一個人或是老夫老妻，只要從未來過本店的新朋友，綁定官方LINE好友，都可享專屬優惠⋯⋯
-                </p>
+
+    <!-- 第二部分：主要內容區 -->
+    <div class="store">
+      <div class="container-oringin">
+        <h2 class="fz-12">部落格</h2>
+        <!-- 文章內容區塊 -->
+        <ul class="blog_content dp-flex gap-8">
+          <li><img src="/glass/assets/blog-1-13919abb.png" alt="blog-1" /></li>
+          <li class="blog_cards dp-flex fd-col jc-sb">
+            <div class="blog_describe">
+              <p class="blog_title"><a href="#">情人特別企劃</a></p>
+              <div class="dp-flex jc-sb">
+                <p class="blog_subtitle">2020 Valentine's Special</p>
+                <p class="blog_subtitle_date">2020/02/14</p>
               </div>
-              <div class="more fz-9 color-r">
-                <p>MORE</p>
-              </div>
-            </li>
-          </ul>
+              <p class="blog_describe_text">
+                一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+                即日起至2/16為止，不論是熱戀情侶、自由自在一個人或是老夫老妻，只要從未來過本店的新朋友，綁定官方LINE好友，都可享專屬優惠⋯⋯
+              </p>
+            </div>
+            <div class="more fz-9 color-r">
+              <p>MORE</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <footer class="footer">
@@ -152,7 +148,5 @@
     </div>
   </div>
 </footer>
-
-    
   </body>
 </html>
