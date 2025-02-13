@@ -18,12 +18,13 @@ a {
   text-decoration: none;
   display: block;
 }
-.container {
+.container,
+.container-oringin {
   max-width: 1320px;
   margin: 0 auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  width: 100%;
 }
+
 h1 {
   font-weight: bold;
   color: #650300;
@@ -537,6 +538,13 @@ h3 {
 }
 
 /* 由大到小的rwd（桌機優先） */
+@media (max-width: 1290px) {
+  .container,
+  .container-oringin {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
 @media (max-width: 768px) {
   .header {
     padding-bottom: 0px;
@@ -575,7 +583,7 @@ h3 {
   }
 
   .blog_describe_text {
-    font-size: 16px; /* 平板字體可以稍微縮小 */
+    font-size: 1rem;
   }
 }
 @media (max-width: 657px) {
@@ -609,6 +617,23 @@ h3 {
   .material-symbols-outlined {
     font-size: 18px;
   }
+  .blog_content > li {
+    width: 100%;
+  }
+
+  .blog_describe_text {
+    display: none;
+  }
+  .blog_title a {
+    font-size: 24px;
+  }
+  .blog_subtitle,
+  .blog_subtitle_date {
+    font-size: 1rem;
+  }
+  .more {
+    display: none;
+  }
 }
 @media (max-width: 430px) {
   .nav-items {
@@ -629,22 +654,5 @@ h3 {
 @media (max-width: 376px) {
   .card {
     max-width: 100%;
-  }
-  .blog_content > li {
-    width: 100%;
-  }
-
-  .blog_describe_text {
-    display: none;
-  }
-  .blog_title a {
-    font-size: 24px;
-  }
-  .blog_subtitle,
-  .blog_subtitle_date {
-    font-size: 1rem;
-  }
-  .more {
-    display: none;
   }
 }
