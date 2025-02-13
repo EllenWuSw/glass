@@ -460,8 +460,11 @@ h3 {
 .pages_cards_after a:hover {
   color: #555555;
 }
+// 設定內容頁尾不同間距
+.products_cards + .pages_list {
+  margin-top: 5rem;
+}
 .pages_list {
-  margin-top: 7.75rem;
   margin-bottom: 5rem;
 }
 // products_2頁面
@@ -526,7 +529,9 @@ h3 {
   font-size: 20px;
   line-height: 30px;
 }
-
+.blog_content + .pages_list {
+  margin-top: 7.75rem;
+}
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
