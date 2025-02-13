@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- head 內容保持不變 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>部落格</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
@@ -26,10 +39,9 @@
     <!-- 內容區-->
     <div class="blog_main">
       <div class="container-oringin">
-        <!-- 標題區 -->
         <h2 class="fz-12">部落格</h2>
 
-        <!-- 文章內容區 -->
+        <!-- 文章內容(卡片)區 -->
         <ul class="blog_content dp-flex gap-8">
           <li><img src="../assets/images/blog-1.png" alt="blog-1" /></li>
           <li class="blog_cards dp-flex fd-col jc-sb">
@@ -50,8 +62,8 @@
           </li>
         </ul>
         <!-- 換頁標題 -->
-        <div>
-          <ul class="pages_list dp-flex jc-c ai-c text-center">
+        <div class="pages_list">
+          <ul class="dp-flex jc-c ai-c text-center">
             <li class="pages_cards_forward"><a href="#">上一頁</a></li>
             <li class="pages_cards"><a href="#">1</a></li>
             <li class="pages_cards"><a href="#">2</a></li>

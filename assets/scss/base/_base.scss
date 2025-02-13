@@ -34,7 +34,6 @@ h2 {
   opacity: 1;
   margin-left: 8px;
   margin-bottom: 2rem;
-  margin-top: 6rem;
   padding-left: 16px;
   font-size: 48px;
 }
@@ -431,6 +430,7 @@ h3 {
 .redOrange {
   background: #b75929;
 }
+// 換頁按鈕
 .pages_cards,
 .pages_cards_forward,
 .pages_cards_after {
@@ -460,6 +460,10 @@ h3 {
 .pages_cards_after a:hover {
   color: #555555;
 }
+.pages_list {
+  margin-top: 7.75rem;
+  margin-bottom: 5rem;
+}
 // products_2頁面
 .products_cards_products_2 {
   max-width: 32.5%;
@@ -485,6 +489,9 @@ h3 {
 .search a {
   color: white;
   padding: 13px 0;
+}
+.blog_main {
+  margin-top: 6rem;
 }
 .blog_content {
   background: white;
@@ -516,6 +523,8 @@ h3 {
 }
 .blog_describe_text {
   max-width: 100%;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* 由大到小的rwd（桌機優先） */
