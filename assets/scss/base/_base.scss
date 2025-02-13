@@ -485,6 +485,11 @@ h3 {
   color: white;
   padding: 13px 0;
 }
+.blog_content {
+  background: white;
+  padding-top: 2rem;
+  padding-bottom: 7.75rem;
+}
 .blog_content li {
   max-width: calc((100% - 24px) / 2);
 }
@@ -511,6 +516,7 @@ h3 {
 .blog_describe_text {
   max-width: 100%;
 }
+
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
