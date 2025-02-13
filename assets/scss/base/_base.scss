@@ -588,6 +588,20 @@ h3 {
   .more {
     display: none;
   }
+  .blog_content > li {
+    width: 100%;
+  }
+
+  .blog_describe_text {
+    display: none;
+  }
+  .blog_title a {
+    font-size: 24px;
+  }
+  .blog_subtitle,
+  .blog_subtitle_date {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 657px) {
   .footer-space {
@@ -619,20 +633,6 @@ h3 {
   }
   .material-symbols-outlined {
     font-size: 18px;
-  }
-  .blog_content > li {
-    width: 100%;
-  }
-
-  .blog_describe_text {
-    display: none;
-  }
-  .blog_title a {
-    font-size: 24px;
-  }
-  .blog_subtitle,
-  .blog_subtitle_date {
-    font-size: 1rem;
   }
 }
 @media (max-width: 430px) {
