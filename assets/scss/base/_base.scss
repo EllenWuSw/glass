@@ -485,6 +485,32 @@ h3 {
   color: white;
   padding: 13px 0;
 }
+.blog_content li {
+  max-width: calc((100% - 24px) / 2);
+}
+.more {
+  order: 0;
+  align-self: flex-end;
+  font-weight: 900;
+}
+.blog_title a {
+  font-size: 32px;
+  color: #650300;
+}
+.blog_describe {
+  color: black;
+}
+.blog_subtitle {
+  opacity: 1;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+.blog_subtitle_date {
+  font-size: 1rem;
+}
+.blog_describe_text {
+  max-width: 100%;
+}
 /* 由大到小的rwd（桌機優先） */
 @media (max-width: 768px) {
   .header {
