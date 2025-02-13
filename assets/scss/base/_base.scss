@@ -600,9 +600,9 @@ h3 {
     -moz-box-orient: vertical;
     box-orient: vertical;
 
-    -webkit-line-clamp: 1; /* Webkit 瀏覽器的前綴 */
-    -moz-line-clamp: 1; /* Firefox 的前綴 */
-    line-clamp: 1; /* 標準語法 */
+    -webkit-line-clamp: 6; /* Webkit 瀏覽器的前綴 */
+    -moz-line-clamp: 6; /* Firefox 的前綴 */
+    line-clamp: 6; /* 標準語法 */
 
     overflow: hidden;
     text-overflow: ellipsis;
