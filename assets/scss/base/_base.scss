@@ -593,8 +593,17 @@ h3 {
   }
   .blog_describe_text {
     display: -webkit-box;
+    display: -moz-box; /* Firefox 支援 */
+    display: box; /* 標準語法 */
+
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6; /* 控制顯示第6行文字後開始省略 */
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+
+    -webkit-line-clamp: 1; /* Webkit 瀏覽器的前綴 */
+    -moz-line-clamp: 1; /* Firefox 的前綴 */
+    line-clamp: 1; /* 標準語法 */
+
     overflow: hidden;
     text-overflow: ellipsis;
   }
