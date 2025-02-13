@@ -614,6 +614,9 @@ h3 {
   .blog_subtitle_date {
     font-size: 1rem;
   }
+  .blog_content .blog_cards {
+    width: calc(50% - 12px);
+  }
 }
 @media (max-width: 657px) {
   .footer-space {
@@ -667,30 +670,49 @@ h3 {
   .card {
     max-width: 100%;
   }
-  .blog_content {
-    flex-direction: column; /* 改為垂直排列 */
+  .container-oringin h2 {
+    font-size: 1.5rem; /* 24px ÷ 16px = 1.5rem */
+    font-weight: bold; /* 保持粗體 */
   }
-  .blog_content > li img {
+
+  /* 容器本身的調整 */
+  .container-oringin .blog_content {
+    flex-direction: column;
+  }
+
+  .container-oringin .blog_content > li {
+    width: 100%;
+    max-width: none;
+  }
+
+  .container-oringin .blog_content > li img {
     width: 100%;
     height: auto;
+    display: block;
     margin-bottom: 0.5rem;
-    margin-right: 0; /* 移除間距 */
   }
 
-  .blog_cards {
+  .container-oringin .blog_content .blog_cards {
     width: 100%;
   }
 
-  /* 副標題和日期的容器調整 */
-  .blog_describe .dp-flex.jc-sb {
+  .container-oringin .blog_content .blog_title a {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .container-oringin .blog_content .blog_describe .dp-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
   }
 
-  .blog_subtitle,
-  .blog_subtitle_date {
-    margin: 0; /* 移除可能的預設 margin */
+  .container-oringin .blog_content .blog_subtitle,
+  .container-oringin .blog_content .blog_subtitle_date {
+    font-size: 1rem;
+    margin: 0;
   }
 
   .blog_describe_text {
