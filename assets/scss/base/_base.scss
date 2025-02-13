@@ -667,12 +667,16 @@ h3 {
   .card {
     max-width: 100%;
   }
-
+  .blog_content {
+    flex-direction: column; /* 改為垂直排列 */
+  }
   .blog_content > li img {
     width: 100%;
     height: auto;
     margin-bottom: 0.5rem;
+    margin-right: 0; /* 移除間距 */
   }
+
   .blog_cards {
     width: 100%;
   }
