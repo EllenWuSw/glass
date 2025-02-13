@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>部落格</title>
+    <body>
+        <%- include('./layout/header'); -%>
+        <div class="blog_manu">
+            <div class="container-oringin">
+                <ul class="blog_manu_list">
+                    <li><a href="#">最新消息</a></li>
+                    <li><a href="#">特別企劃</a></li>
+                    <li><a href="#">新品上市</a></li>
+                    <li><a href="#">鏡框小知識</a></li>
+                </ul>
+                <div class="search"><a href="#"><span class="material-symbols-outlined">
+                    search
+                    </span></a></div>
+            </div>
+        </div>
+            <div class="qNa store">
+                <div class="container-oringin">
+                <h2 class="fz-12">門市據點</h2>
+                </div>
+            </div>
+        <%- include('./layout/footer'); -%>
+
+        <script type="module" src="../main.js"></script>  
+    </body>
+</html>
